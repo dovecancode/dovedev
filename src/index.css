@@ -25,6 +25,10 @@ a:hover {
   color: rgb(146, 178, 149);
 }
 
+html {
+  font-size: 65%;
+}
+
 body {
   margin: 0;
   display: flex;
