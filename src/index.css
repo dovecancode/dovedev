@@ -38,13 +38,18 @@ body {
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 5em;
   line-height: 1.1;
+}
+
+p,
+a {
+  font-size: 1.6rem;
 }
 
 .portfolio {
   display: flex;
-  gap: 3rem;
+  justify-content: space-between;
 }
 
 .portfolio .card {
