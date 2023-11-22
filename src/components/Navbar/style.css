@@ -1,17 +1,16 @@
 .nav-button {
   display: flex;
-  justify-content: flex-end;
   font-size: 1.6rem;
   background: rgba(100, 63, 161, 0.94);
   width: 16rem;
   height: 6rem;
   margin-left: auto;
-  /* margin-top: 4rem; */
   margin-right: 3rem;
+  margin-top: 3rem;
   cursor: pointer;
   border-radius: 0.6rem;
   position: relative;
-  top: 2rem;
+  /* top: 2rem; */
 }
 
 .nav-button-container {
@@ -37,4 +36,44 @@
   background: #fff;
   width: 24px;
   height: 2px;
+}
+
+.navigation {
+  background: red;
+}
+
+.hidden {
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+/* navigation */
+.navigation {
+  display: flex;
+  flex-direction: column;
+  background: rgba(100, 63, 161, 0.94);
+
+  margin-left: auto;
+  margin-right: 3rem;
+  width: 16rem;
+  font-size: 1.6rem;
+  text-transform: capitalize;
+  transform: translateY(-20rem);
+  /* position: absolute;
+  right: 0;
+  left: 0; */
+
+  padding: 2rem;
+  gap: 1.6rem;
+
+  /* background: rgba(100, 63, 161, 0.94);
+  min-width: 160px; */
+}
+
+.navigation a {
+  color: #fff;
 }

@@ -1,8 +1,4 @@
 .cards .card {
-  flex: 1;
-}
-
-.cards .card {
   font-size: 1.6rem;
   text-transform: capitalize;
 }
@@ -19,4 +15,11 @@
 
 .cards .card .options a:hover {
   color: rgba(100, 63, 161, 0.94) !important;
+}
+
+/* mobile approach min-width */
+@media (width >= 35em) {
+  .cards .card {
+    flex: 1;
+  }
 }

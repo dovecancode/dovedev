@@ -1,6 +1,7 @@
 .social-media {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 2rem;
 }
 
@@ -10,4 +11,11 @@
 
 .social-media li a:hover .socialIcon {
   color: rgba(100, 63, 161, 0.94) !important;
+}
+
+/* mobile approach min-width */
+@media (width >= 35em) {
+  .social-media {
+    justify-content: flex-start;
+  }
 }

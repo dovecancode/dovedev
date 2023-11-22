@@ -17,6 +17,7 @@ body {
   font-family: 'Lato', sans-serif;
   background: var(--primary-color);
   color: #fff;
+  margin: 0;
 }
 
 a {
@@ -49,11 +50,11 @@ img {
 .dove-content {
   display: flex;
   align-items: center;
-  /* justify-content: center; */
+  justify-content: center;
 }
 
 .portfolio {
-  margin-top: 10rem;
+  margin-top: 3rem;
   margin-bottom: 5rem;
 
   /* activate this code only if there is a content below portfolio info  */
@@ -97,4 +98,17 @@ img {
 .content.right {
   /* flex: 0.5; */
   flex: 1;
+
+  text-align: center;
+}
+
+/* mobile approach min-width */
+@media (width >= 35em) {
+  .dove-content {
+    justify-content: flex-start;
+  }
+
+  .content.right {
+    text-align: left;
+  }
 }
