@@ -9,11 +9,16 @@ const socialMedia = [
 
 function SocialMediaList() {
   return (
-    <ul className="social-media">
-      {socialMedia.map((social) => (
-        <Item key={`list-${social.id}`} item={social} />
-      ))}
-    </ul>
+    <>
+      <span>Hello there, I&apos;m </span>
+      <h1>Nelson Doverte</h1>
+      <p>A self-taught web developer that loves to build websites primarily using React</p>
+      <ul className="social-media">
+        {socialMedia.map((social) => (
+          <Item key={`list-${social.id}`} item={social} />
+        ))}
+      </ul>
+    </>
   )
 }
 

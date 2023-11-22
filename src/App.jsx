@@ -1,4 +1,5 @@
-import profile from './assets/portfolio-profile-v2.jpg'
+// import Portfolios from './components/Portfolios'
+import ProfilePic from './components/ProfilePic'
 import SocialMediaList from './components/SocialMediaList'
 
 function App() {
@@ -9,15 +10,13 @@ function App() {
         <div className="container">
           <div className="dove-content">
             <div className="content left">
-              <img src={profile} alt="Nelson Doverte" />
+              <ProfilePic />
             </div>
             <div className="content right">
-              <span>Hello there, I&apos;m </span>
-              <h1>Nelson Doverte</h1>
-              <p>A self-taught web developer that loves to build websites primarily using React</p>
               <SocialMediaList />
             </div>
           </div>
+          {/* <Portfolios /> */}
         </div>
       </div>
     </>

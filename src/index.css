@@ -53,7 +53,9 @@ img {
 }
 
 .portfolio {
-  margin-block: 5rem;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+
   /* activate this code only if there is a content below portfolio info  */
   /* flex-direction: column; */
 }
@@ -105,4 +107,38 @@ img {
 
 .social-media li a:hover .socialIcon {
   color: rgba(100, 63, 161, 0.94) !important;
+}
+
+.dove-portfolio {
+  padding-top: 5rem;
+}
+
+.dove-portfolio h2 {
+  font-size: 2.5rem;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 7rem;
+}
+
+.cards .card {
+  flex: 1;
+}
+
+.cards .card {
+  font-size: 1.6rem;
+  text-transform: capitalize;
+}
+.cards .card .options {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-size: 2.5rem;
+}
+
+.cards .card .options a {
+  color: #fff;
 }
