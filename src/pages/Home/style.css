@@ -48,8 +48,8 @@
 }
 
 .content.right {
-  /* flex: 0.5; */
-  flex: 1;
+  flex: 0.9;
+  /* flex: 1; */
 
   text-align: center;
 }

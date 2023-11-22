@@ -18,8 +18,15 @@
 }
 
 /* mobile approach min-width */
+
 @media (width >= 35em) {
   .cards .card {
-    flex: 1;
+    flex: 0 calc(100% / 2 - 3rem);
+  }
+}
+
+@media (width >= 50em) {
+  .cards .card {
+    flex: 0 calc(100% / 3 - 4rem);
   }
 }

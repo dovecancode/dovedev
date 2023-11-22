@@ -1,9 +1,10 @@
+import Portfolios from '../../components/Portfolios'
+import './style.css'
+
 function PortfolioPage() {
   return (
-    <div className="container">
-      <div className="cards">
-        <div className="card">dgasd</div>
-      </div>
+    <div className="portfolios container">
+      <Portfolios />
     </div>
   )
 }

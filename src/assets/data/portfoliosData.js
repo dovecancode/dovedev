@@ -57,6 +57,17 @@ const portfolioData = [
       },
     ],
   },
+  {
+    id: 6,
+    title: 'cloudbudget',
+    description: 'cloudbudget app list app quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto',
+    icons: [
+      {
+        sourse: { icon: FaGithub, link: 'https://github.com/' },
+        achor: { icon: FaLink, link: 'https://live.com/' },
+      },
+    ],
+  },
 ]
 
 export default portfolioData

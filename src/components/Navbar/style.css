@@ -49,6 +49,7 @@
   position: absolute;
   left: 0;
   right: 0;
+  /* z-index: -1; */
 }
 
 /* navigation */
@@ -62,7 +63,7 @@
   width: 16rem;
   font-size: 1.6rem;
   text-transform: capitalize;
-  transform: translateY(-20rem);
+  /* transform: translateY(-20rem); */
   /* position: absolute;
   right: 0;
   left: 0; */
