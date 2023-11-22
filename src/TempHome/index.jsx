@@ -1,6 +1,6 @@
-import './App.css'
+import './style.css'
 
-function Temp() {
+function TempHome() {
   return (
     <>
       <h1>Dove Dev</h1>
@@ -22,4 +22,4 @@ function Temp() {
   )
 }
 
-export default Temp
+export default TempHome

@@ -1,21 +1,23 @@
-import './App.css'
+import profile from './assets/portfolio-profile-v2.jpg'
+import SocialMediaList from './components/SocialMediaList'
 
 function App() {
   return (
     <>
-      <h1>Dove Dev</h1>
-      <div className="container">
-        <p>There is nothing much yet here... However, below are my portfolio&apos;s</p>
-        <div className="portfolio">
-          <a className="card" href="https://reelestate.vercel.app/" target="_blank" rel="noreferrer">
-            reelestate
-          </a>
-          <a className="card" href="https://gadget-world.vercel.app/" target="_blank" rel="noreferrer">
-            gadgetworld
-          </a>
-          <a className="card" href="https://park-spot.vercel.app/" target="_blank" rel="noreferrer">
-            parkspot
-          </a>
+      {/* <nav>hello</nav> */}
+      <div className="portfolio">
+        <div className="container">
+          <div className="dove-content">
+            <div className="content left">
+              <img src={profile} alt="Nelson Doverte" />
+            </div>
+            <div className="content right">
+              <span>Hello there, I&apos;m </span>
+              <h1>Nelson Doverte</h1>
+              <p>A self-taught web developer that loves to build websites primarily using React</p>
+              <SocialMediaList />
+            </div>
+          </div>
         </div>
       </div>
     </>
