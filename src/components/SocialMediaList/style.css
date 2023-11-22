@@ -1,0 +1,13 @@
+.social-media {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.social-media li .socialIcon {
+  transition: all 0.2s ease-in;
+}
+
+.social-media li a:hover .socialIcon {
+  color: rgba(100, 63, 161, 0.94) !important;
+}

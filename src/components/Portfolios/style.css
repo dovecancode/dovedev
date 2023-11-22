@@ -1,0 +1,14 @@
+.dove-portfolio {
+  padding-top: 5rem;
+}
+
+.dove-portfolio h2 {
+  font-size: 2.5rem;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5rem;
+}

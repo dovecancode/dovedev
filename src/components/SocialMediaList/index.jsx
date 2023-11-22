@@ -1,5 +1,6 @@
 import { FaCodepen, FaEnvelope, FaGithub } from 'react-icons/fa'
 import Item from '../SocialMediaItem'
+import './style.css'
 
 const socialMedia = [
   { id: 1, icon: <FaGithub />, link: 'https://github.com/dovecancode' },

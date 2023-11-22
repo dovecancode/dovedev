@@ -1,4 +1,7 @@
 import PropTypes from 'prop-types'
+import './style.css'
+
+import { Link } from 'react-router-dom'
 
 function PortfolioItem({ portfolios }) {
   const { title, description, icons } = portfolios
@@ -10,12 +13,12 @@ function PortfolioItem({ portfolios }) {
       <div className="options">
         {icons.map((icon, idx) => (
           <div className="options" key={`p-icon-${idx}`}>
-            <a href={icon.sourse.link} target="_blank" rel="noreferrer">
+            <Link to={icon.sourse.link} target="_blank" rel="noreferrer">
               <icon.sourse.icon />
-            </a>
-            <a href={icon.achor.link} target="_blank" rel="noreferrer">
+            </Link>
+            <Link to={icon.achor.link} target="_blank" rel="noreferrer">
               <icon.achor.icon />
-            </a>
+            </Link>
           </div>
         ))}
       </div>
