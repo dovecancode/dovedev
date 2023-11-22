@@ -1,7 +1,7 @@
 .nav-button {
   display: flex;
   font-size: 1.6rem;
-  background: rgba(100, 63, 161, 0.94);
+  background: var(--secondary-color);
   width: 16rem;
   height: 6rem;
   margin-left: auto;

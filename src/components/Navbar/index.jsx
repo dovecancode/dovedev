@@ -18,7 +18,7 @@ function Navbar() {
       <div className="hidden">
         <nav className="navigation">
           <Link to="/">home</Link>
-          <Link to="/projects">Projects</Link>
+          <Link to="/portfolios">Projects</Link>
         </nav>
       </div>
     </>

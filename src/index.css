@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 :root {
   --primary-color: #1e293b;
+  --secondary-color: rgba(100, 63, 161, 0.94);
 }
 *,
 *::before,
@@ -44,71 +45,4 @@ img {
   margin-right: auto;
   padding-left: 24px;
   padding-right: 24px;
-}
-
-.portfolio,
-.dove-content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.portfolio {
-  margin-top: 3rem;
-  margin-bottom: 5rem;
-
-  /* activate this code only if there is a content below portfolio info  */
-  /* flex-direction: column; */
-}
-
-.dove-content {
-  gap: 5rem;
-  flex-wrap: wrap;
-}
-
-.content img {
-  border-radius: 9999px;
-  width: 25rem;
-  height: 25rem;
-  object-fit: cover;
-}
-
-.content:nth-of-type(2) {
-  font-size: 2rem;
-}
-
-.content:nth-of-type(2) span {
-  font-size: 3rem;
-}
-
-.content:nth-of-type(2) h1 {
-  font-size: 5rem;
-  margin: 0;
-}
-.content:nth-of-type(2) p {
-  margin-top: 1rem;
-}
-
-.content.left {
-  border: 0.5rem rgba(100, 63, 161, 0.94) solid;
-  border-radius: 9999px;
-  padding: 0.5rem;
-}
-
-.content.right {
-  /* flex: 0.5; */
-  flex: 1;
-
-  text-align: center;
-}
-
-/* mobile approach min-width */
-@media (width >= 35em) {
-  .dove-content {
-    justify-content: flex-start;
-  }
-
-  .content.right {
-    text-align: left;
-  }
 }

@@ -4,13 +4,13 @@ import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } 
 // import TempHome from './TempHome'
 import App from './App'
 import './index.css'
-import { Home, Projects } from './pages'
+import { Home, PortfolioPage } from './pages'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
       <Route index={true} path="/" element={<Home />} />
-      <Route path="/projects" element={<Projects />} />
+      <Route path="/portfolios" element={<PortfolioPage />} />
     </Route>
   )
 )
