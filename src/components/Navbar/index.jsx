@@ -13,9 +13,6 @@ function Navbar() {
           </div>
         </div>
       </div>
-      <nav className="nav-menu">
-        <a href=""></a>
-      </nav>
     </>
   )
 }
