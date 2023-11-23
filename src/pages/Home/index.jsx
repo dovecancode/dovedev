@@ -1,4 +1,4 @@
-import Portfolios from '../../components/Portfolios'
+// import Portfolios from '../../components/Portfolios'
 import ProfilePic from '../../components/ProfilePic'
 import SocialMediaList from '../../components/SocialMediaList'
 
@@ -16,7 +16,7 @@ function Home() {
             <SocialMediaList />
           </div>
         </div>
-        <Portfolios />
+        {/* <Portfolios /> */}
       </div>
     </div>
   )
