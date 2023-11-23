@@ -13,10 +13,10 @@ function PortfolioItem({ portfolios }) {
       <div className="options">
         {icons.map((icon, idx) => (
           <div className="options" key={`p-icon-${idx}`}>
-            <Link to={icon.sourse.link} target="_blank" rel="noreferrer">
+            <Link to={icon.sourse.link} target="_blank" rel="noreferrer" title="github">
               <icon.sourse.icon />
             </Link>
-            <Link to={icon.achor.link} target="_blank" rel="noreferrer">
+            <Link to={icon.achor.link} target="_blank" rel="noreferrer" title="live">
               <icon.achor.icon />
             </Link>
           </div>

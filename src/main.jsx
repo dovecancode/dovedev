@@ -15,6 +15,23 @@ const router = createBrowserRouter(
   )
 )
 
+// const router = createBrowserRouter([
+//   {
+//     path: '/',
+//     element: <App />,
+//     children: [
+//       {
+//         path: '/',
+//         element: <Home />,
+//       },
+//       {
+//         path: '/portfolios',
+//         element: <PortfolioPage />,
+//       },
+//     ],
+//   },
+// ])
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <RouterProvider router={router} />
