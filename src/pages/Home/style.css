@@ -6,7 +6,7 @@
 }
 
 .dove-homepage {
-  margin-top: 3rem;
+  margin-top: 10rem;
   margin-bottom: 5rem;
 
   /* activate this code only if there is a content below portfolio info  */
@@ -56,6 +56,9 @@
 
 /* mobile approach min-width */
 @media (width >= 35em) {
+  .dove-homepage {
+    margin-top: 3rem;
+  }
   .dove-content {
     justify-content: flex-start;
   }
