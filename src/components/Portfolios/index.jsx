@@ -10,7 +10,7 @@ function Portfolios() {
 
   return (
     <div className="dove-portfolio">
-      {location.pathname === '/' ? <h2>Feature Portfolio</h2> : ''}
+      {location.pathname === '/' ? <h2>Featured Projects</h2> : ''}
       <div className="cards">{location.pathname === '/' ? feacturedP.map((portfolio) => <PortfolioItem key={`list-${portfolio.id}`} portfolios={portfolio} />) : portfolioData?.map((portfolio) => <PortfolioItem key={`list-${portfolio.id}`} portfolios={portfolio} />)}</div>
     </div>
   )

@@ -5,15 +5,11 @@
   justify-content: center;
 }
 
-/* .dove-content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
-
 .dove-homepage {
-  margin-top: 3rem;
   margin-bottom: 5rem;
+  position: relative;
+  top: -4rem;
+  z-index: -1;
 
   /* activate this code only if there is a content below portfolio info  */
   /* flex-direction: column; */
@@ -55,15 +51,14 @@
 
 .content.right {
   flex: 0.9;
-  /* flex: 1; */
-
   text-align: center;
 }
 
 /* mobile approach min-width */
 @media (width >= 45.875em) {
   .dove-homepage {
-    margin-top: 0;
+    z-index: 0;
+    top: 0;
   }
 
   .content.right {
