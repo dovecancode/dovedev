@@ -9,8 +9,8 @@ function NavMenus({ isOpen, setIsOpen }) {
         <Link to="/" onClick={() => setIsOpen(false)}>
           home
         </Link>
-        <Link to="/portfolios" onClick={() => setIsOpen(false)}>
-          Projects
+        <Link to="/projects" onClick={() => setIsOpen(false)}>
+          projects
         </Link>
       </nav>
     </div>
