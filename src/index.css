@@ -40,9 +40,16 @@ img {
 .container {
   width: 100%;
   /* max-width: 1272px; */
-  max-width: 900px;
+  /* max-width: 900px; */
+  max-width: 527px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 24px;
   padding-right: 24px;
+}
+
+@media (width >= 45.875em) {
+  .container {
+    max-width: 900px;
+  }
 }

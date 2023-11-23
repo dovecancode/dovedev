@@ -1,9 +1,15 @@
-.dove-homepag,
+.dove-homepage,
 .dove-content {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
+/* .dove-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
 
 .dove-homepage {
   margin-top: 3rem;
@@ -55,13 +61,13 @@
 }
 
 /* mobile approach min-width */
-@media (width >= 35em) {
+@media (width >= 45.875em) {
   .dove-homepage {
     /* margin-top: 3rem; */
   }
-  .dove-content {
-    justify-content: flex-start;
-  }
+  /* .dove-content {
+    justify-content: center;
+  } */
 
   .content.right {
     text-align: left;
