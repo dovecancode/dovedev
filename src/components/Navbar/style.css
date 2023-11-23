@@ -27,6 +27,7 @@
   letter-spacing: 2px;
 }
 
+/* mobile approach min-width */
 @media (width >= 45.875em) {
   .nav-button {
     width: 16rem;
