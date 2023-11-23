@@ -63,11 +63,8 @@
 /* mobile approach min-width */
 @media (width >= 45.875em) {
   .dove-homepage {
-    /* margin-top: 3rem; */
+    margin-top: 0;
   }
-  /* .dove-content {
-    justify-content: center;
-  } */
 
   .content.right {
     text-align: left;
