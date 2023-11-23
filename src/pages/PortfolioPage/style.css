@@ -1,4 +1,15 @@
 .portfolios.container {
   max-width: 1272px;
   margin-bottom: 3rem;
+
+  position: relative;
+  top: -10rem;
+  z-index: -1;
+}
+
+@media (width >= 45.875em) {
+  .portfolios.container {
+    z-index: 0;
+    top: 0;
+  }
 }
