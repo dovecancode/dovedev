@@ -1,31 +1,40 @@
-.cards .card {
+.card {
+  display: flex;
+  flex-direction: column;
+
   font-size: 1.6rem;
+}
+
+.card h3 {
+  margin-bottom: 0;
   text-transform: capitalize;
 }
-.cards .card .options {
+.card .options {
   display: flex;
   align-items: center;
   gap: 1.6rem;
   font-size: 2.5rem;
+
+  margin-top: auto;
 }
 
-.cards .card .options a {
+.card .options a {
   color: #fff;
 }
 
-.cards .card .options a:hover {
+.card .options a:hover {
   color: rgba(100, 63, 161, 0.94) !important;
 }
 
 /* mobile approach min-width */
 @media (width >= 30em) {
-  .cards .card {
+  .card {
     flex: 0 calc(100% / 2 - 3rem);
   }
 }
 
 @media (width >= 45.875em) {
-  .cards .card {
+  .card {
     flex: 0 calc(100% / 3 - 4rem);
   }
 }

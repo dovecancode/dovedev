@@ -1,5 +1,5 @@
 .dove-portfolio {
-  padding-top: 5rem;
+  padding-block: 5rem;
 }
 
 .dove-portfolio h2 {
@@ -8,7 +8,6 @@
 
 .cards {
   display: flex;
-  align-items: center;
   flex-wrap: wrap;
   gap: 5rem;
 }
