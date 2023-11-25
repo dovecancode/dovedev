@@ -1,11 +1,11 @@
-.dove-homepage,
-.dove-content {
+.doveHomepage,
+.doveContent {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.dove-homepage {
+.doveHomepage {
   position: relative;
   top: -6rem;
 
@@ -13,7 +13,7 @@
   /* flex-direction: column; */
 }
 
-.dove-content {
+.doveContent {
   gap: 5rem;
   flex-wrap: wrap;
 }
@@ -54,7 +54,7 @@
 
 /* mobile approach min-width */
 @media (width >= 45.875em) {
-  .dove-homepage {
+  .doveHomepage {
     top: 0;
   }
 
