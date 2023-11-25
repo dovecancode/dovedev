@@ -1,5 +1,5 @@
-// import Portfolios from '../../components/Portfolios'
 import cx from 'classname'
+// import Portfolios from '../../components/Portfolios'
 import ProfilePic from '../../components/ProfilePic'
 import SocialMediaList from '../../components/SocialMediaList'
 import styles from './style.module.css'

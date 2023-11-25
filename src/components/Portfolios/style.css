@@ -12,7 +12,7 @@
   gap: 5rem;
 }
 
-/* this will run if the portfolio array is empty  */
+/* this will run if the portfolio array is empty in the homepage  */
 .center {
   display: flex;
   justify-content: center;
