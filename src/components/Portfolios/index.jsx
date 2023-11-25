@@ -9,7 +9,7 @@ function Portfolios() {
   let location = useLocation()
 
   if (portfolioData.length == 0) {
-    return <div className="center">No portfolios yet</div>
+    return <div className="center">No project yet</div>
   }
 
   return (
