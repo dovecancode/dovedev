@@ -30,8 +30,8 @@ const portfolioData = [
     description: 'parspot quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto',
     icons: [
       {
-        sourse: { icon: FaGithub, link: '#' },
-        achor: { icon: FaLink, link: '#' },
+        sourse: { icon: FaGithub, link: 'https://github.com/dovecancode/' },
+        achor: { icon: FaLink, link: 'https://github.com/dovecancode/' },
       },
     ],
   },
@@ -41,7 +41,7 @@ const portfolioData = [
     description: 'This to-do list app probably is my favorite one so far. Doing this  I got deep dive more into Vanilla Javascript, local storages, and a little bit of CSS animation triggerd by javascript events',
     icons: [
       {
-        sourse: { icon: FaGithub, link: 'https://github.com/' },
+        sourse: { icon: FaGithub, link: 'https://github.com/dovecancode/todoListApp' },
         achor: { icon: FaLink, link: 'https://dove-todo-app.vercel.app/' },
       },
     ],
