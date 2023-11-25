@@ -1,11 +1,11 @@
 import PropTypes from 'prop-types'
 import { Link } from 'react-router-dom'
-import './style.css'
+import styles from './style.module.css'
 
 function NavMenus({ isOpen, setIsOpen }) {
   return (
-    <div className="hidden" style={{ visibility: isOpen ? 'visible' : 'hidden' }}>
-      <nav className={`navigation ${isOpen ? 'open' : ''}`}>
+    <div className={styles.hidden} style={{ visibility: isOpen ? 'visible' : 'hidden' }}>
+      <nav className={`${styles.navigation} ${isOpen ? styles.open : ''}`}>
         <Link to="/" onClick={() => setIsOpen(false)}>
           home
         </Link>
