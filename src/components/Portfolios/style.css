@@ -11,3 +11,12 @@
   flex-wrap: wrap;
   gap: 5rem;
 }
+
+/* this will run if the portfolio array is empty  */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70rem;
+  font-size: 4rem;
+}

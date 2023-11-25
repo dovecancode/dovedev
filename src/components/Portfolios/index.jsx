@@ -3,10 +3,14 @@ import portfolioData from '../../assets/data/portfoliosData'
 import PortfolioItem from '../PortfolioItem'
 import './style.css'
 
-const feacturedP = portfolioData.slice(0, 3)
+let feacturedP = portfolioData.slice(0, 3)
 
 function Portfolios() {
   let location = useLocation()
+
+  if (feacturedP.length == 0) {
+    return <div className="center">No portfolios yet</div>
+  }
 
   return (
     <div className="dove-portfolio">
