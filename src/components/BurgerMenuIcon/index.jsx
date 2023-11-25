@@ -1,12 +1,12 @@
 import PropTypes from 'prop-types'
-import './style.css'
+import styles from './style.module.css'
 
 function BurgerMenuIcon({ isOpen }) {
   return (
-    <div className={`nav-burger ${isOpen ? 'open' : ''}`}>
-      <span></span>
-      <span></span>
-      <span></span>
+    <div className={`${styles.navBurger} ${isOpen ? styles.open : ''}`}>
+      <span className={styles.line}></span>
+      <span className={styles.line}></span>
+      <span className={styles.line}></span>
     </div>
   )
 }
