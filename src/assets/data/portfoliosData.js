@@ -49,11 +49,11 @@ const portfolioData = [
   {
     id: 5,
     title: 'budget app',
-    description: 'budget app list app quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto',
+    description: "This project's main goal is to practice ReactJs for myself. However, this Budget App will help you map your budget in everyday spending or monthly spending. It's just basically like a calculator that only can add and subtract.",
     icons: [
       {
-        sourse: { icon: FaGithub, link: 'https://github.com/' },
-        achor: { icon: FaLink, link: 'https://live.com/' },
+        sourse: { icon: FaGithub, link: 'https://github.com/dovecancode/Budget-App' },
+        achor: { icon: FaLink, link: 'https://dove-budgetcalc.vercel.app/' },
       },
     ],
   },
