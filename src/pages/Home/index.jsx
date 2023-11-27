@@ -2,17 +2,17 @@ import cx from 'classname'
 // import Portfolios from '../../components/Portfolios'
 import ProfilePic from '../../components/ProfilePic'
 import SocialMediaList from '../../components/SocialMediaList'
-import styles from './style.module.css'
+import { content, doveContent, doveHomepage, left, right } from './style.module.css'
 
 function Home() {
   return (
-    <div className={styles.doveHomepage}>
+    <div className={doveHomepage}>
       <div className="container">
-        <div className={styles.doveContent}>
-          <div className={cx(styles.content, styles.left)}>
+        <div className={doveContent}>
+          <div className={cx(content, left)}>
             <ProfilePic />
           </div>
-          <div className={cx(styles.content, styles.right)}>
+          <div className={cx(content, right)}>
             <SocialMediaList />
           </div>
         </div>
