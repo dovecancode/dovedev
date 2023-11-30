@@ -1,5 +1,5 @@
 import { FaGithub } from 'react-icons/fa'
-import { FaLink } from 'react-icons/fa6'
+import { FiExternalLink } from 'react-icons/fi'
 
 const portfolioData = [
   {
@@ -9,7 +9,7 @@ const portfolioData = [
     icons: [
       {
         sourse: { icon: FaGithub, link: 'https://github.com/dovecancode/novice-craft/tree/main/reelestate' },
-        achor: { icon: FaLink, link: 'https://reelestate.vercel.app/' },
+        achor: { icon: FiExternalLink, link: 'https://reelestate.vercel.app/' },
       },
     ],
   },
@@ -20,7 +20,7 @@ const portfolioData = [
   //   icons: [
   //     {
   //       sourse: { icon: FaGithub, link: 'https://github.com/dovecancode/Gadget-World' },
-  //       achor: { icon: FaLink, link: 'https://gadget-world.vercel.app/' },
+  //       achor: { icon: FiExternalLink, link: 'https://gadget-world.vercel.app/' },
   //     },
   //   ],
   // },
@@ -31,7 +31,7 @@ const portfolioData = [
     icons: [
       {
         sourse: { icon: FaGithub, link: 'https://github.com/dovecancode/' },
-        achor: { icon: FaLink, link: 'https://github.com/dovecancode/' },
+        achor: { icon: FiExternalLink, link: 'https://github.com/dovecancode/' },
       },
     ],
   },
@@ -42,7 +42,7 @@ const portfolioData = [
     icons: [
       {
         sourse: { icon: FaGithub, link: 'https://github.com/dovecancode/todoListApp' },
-        achor: { icon: FaLink, link: 'https://dove-todo-app.vercel.app/' },
+        achor: { icon: FiExternalLink, link: 'https://dove-todo-app.vercel.app/' },
       },
     ],
   },
@@ -53,7 +53,7 @@ const portfolioData = [
     icons: [
       {
         sourse: { icon: FaGithub, link: 'https://github.com/dovecancode/Budget-App' },
-        achor: { icon: FaLink, link: 'https://dove-budgetcalc.vercel.app/' },
+        achor: { icon: FiExternalLink, link: 'https://dove-budgetcalc.vercel.app/' },
       },
     ],
   },
@@ -64,7 +64,7 @@ const portfolioData = [
     icons: [
       {
         sourse: { icon: FaGithub, link: 'https://github.com/' },
-        achor: { icon: FaLink, link: 'https://live.com/' },
+        achor: { icon: FiExternalLink, link: 'https://live.com/' },
       },
     ],
   },
