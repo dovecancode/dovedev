@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import styles from './style.module.css'
 
 function NavMenus({ isOpen, setIsOpen }) {
@@ -9,9 +9,9 @@ function NavMenus({ isOpen, setIsOpen }) {
         <Link to="/" onClick={() => setIsOpen(false)}>
           home
         </Link>
-        <Link to="/projects" onClick={() => setIsOpen(false)}>
+        <NavLink to="/projects" onClick={() => setIsOpen(false)}>
           projects
-        </Link>
+        </NavLink>
       </nav>
     </div>
   )

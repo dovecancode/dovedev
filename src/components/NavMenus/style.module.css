@@ -2,6 +2,12 @@
   background: red;
 }
 
+.navigation :global(.active) {
+  text-decoration: line-through;
+  color: #000;
+  font-weight: bold;
+}
+
 .hidden {
   overflow: hidden;
   width: 100%;
