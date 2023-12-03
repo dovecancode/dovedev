@@ -29,9 +29,9 @@
   font-size: 2rem;
 }
 
-.content:nth-of-type(2) span {
+/* .content:nth-of-type(2) span {
   font-size: 3rem;
-}
+} */
 
 .content:nth-of-type(2) h1 {
   font-size: 5rem;
@@ -55,7 +55,7 @@
 /* mobile approach min-width */
 @media (width >= 45.875em) {
   .doveHomepage {
-    top: 0;
+    top: 4rem;
   }
 
   .content.right {

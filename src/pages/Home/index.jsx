@@ -1,5 +1,6 @@
 import cx from 'classname'
 // import Portfolios from '../../components/Portfolios'
+import HomeGreeting from '../../components/HomeGreeting'
 import ProfilePic from '../../components/ProfilePic'
 import SocialMediaList from '../../components/SocialMediaList'
 import styles from './style.module.css'
@@ -13,6 +14,7 @@ function Home() {
             <ProfilePic />
           </div>
           <div className={cx(styles.content, styles.right)}>
+            <HomeGreeting />
             <SocialMediaList />
           </div>
         </div>
