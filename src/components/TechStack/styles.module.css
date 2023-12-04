@@ -8,19 +8,22 @@
   gap: 1rem; */
 }
 
-.icons {
-  display: flex;
-  justify-content: space-around;
-  flex: 0.7;
-}
-
-.techStack svg {
-  /* margin-right: 2rem; */
-}
-
 @media (width >= 45.875em) {
   .techStack {
     display: flex;
     margin-top: 1rem;
+    gap: 1rem;
+  }
+
+  .techStack svg {
+    margin-right: 3.5rem;
+  }
+}
+
+@media (width <= 47em) {
+  .icons {
+    display: flex;
+    justify-content: space-around;
+    flex: 0.7;
   }
 }
