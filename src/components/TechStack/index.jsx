@@ -7,7 +7,7 @@ function TechStack() {
   return (
     <div className={styles.techStack}>
       <p>
-        TechStack <span>|</span>
+        TechStack <span className={styles.divider}>|</span>
       </p>
       <div className={styles.icons}>
         <FaHtml5 size={30} color="#e34c26" />

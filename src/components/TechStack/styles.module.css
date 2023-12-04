@@ -8,6 +8,10 @@
   gap: 1rem; */
 }
 
+.divider {
+  display: none;
+}
+
 @media (width >= 47em) {
   .techStack {
     display: flex;
@@ -17,6 +21,10 @@
 
   .techStack svg {
     margin-right: 3.5rem;
+  }
+
+  .divider {
+    display: inline-block;
   }
 }
 
