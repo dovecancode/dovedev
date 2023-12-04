@@ -50,6 +50,6 @@ img {
 
 @media (width >= 47em) {
   .container {
-    max-width: 900px;
+    max-width: 90rem;
   }
 }
