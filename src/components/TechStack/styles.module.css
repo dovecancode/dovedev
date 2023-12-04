@@ -12,6 +12,10 @@
   display: none;
 }
 
+.techStack svg {
+  margin-right: 0;
+}
+
 @media (width >= 47em) {
   .techStack {
     display: flex;
@@ -19,12 +23,14 @@
     gap: 1rem;
   }
 
-  .techStack svg {
-    margin-right: 3.5rem;
-  }
-
   .divider {
     display: inline-block;
+  }
+}
+
+@media (width >= 60em) {
+  .techStack svg {
+    margin-right: 3.5rem;
   }
 }
 
