@@ -33,7 +33,7 @@
   }
 }
 
-@media (width >= 47em) {
+@media (width >= 50em) {
   .card {
     flex: 0 calc(100% / 3 - 4rem);
   }
