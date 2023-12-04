@@ -3,6 +3,7 @@ import cx from 'classname'
 import HomeGreeting from '../../components/HomeGreeting'
 import ProfilePic from '../../components/ProfilePic'
 import SocialMediaList from '../../components/SocialMediaList'
+import TechStack from '../../components/TechStack'
 import styles from './style.module.css'
 
 function Home() {
@@ -16,6 +17,7 @@ function Home() {
           <div className={cx(styles.content, styles.right)}>
             <HomeGreeting />
             <SocialMediaList />
+            <TechStack />
           </div>
         </div>
         {/* <Portfolios /> */}
