@@ -1,6 +1,6 @@
 import { FaCodepen, FaEnvelope, FaGithub } from 'react-icons/fa'
 import Item from '../SocialMediaItem'
-import './style.css'
+import styles from './style.module.css'
 
 const socialMedia = [
   { id: 1, icon: <FaGithub />, link: 'https://github.com/dovecancode' },
@@ -10,7 +10,7 @@ const socialMedia = [
 
 function SocialMediaList() {
   return (
-    <ul className="social-media">
+    <ul className={styles['social-media']}>
       {socialMedia.map((social) => (
         <Item key={`list-${social.id}`} item={social} />
       ))}
