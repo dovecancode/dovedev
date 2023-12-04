@@ -25,7 +25,7 @@
 }
 
 /* mobile approach min-width */
-@media (width >= 45.875em) {
+@media (width >= 47em) {
   .navButton {
     width: 16rem;
     margin-left: auto;

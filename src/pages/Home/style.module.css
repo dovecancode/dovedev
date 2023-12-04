@@ -53,7 +53,7 @@
 }
 
 /* mobile approach min-width */
-@media (width >= 45.875em) {
+@media (width >= 47em) {
   .doveHomepage {
     top: 4rem;
   }

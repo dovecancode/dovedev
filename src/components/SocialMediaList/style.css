@@ -14,7 +14,7 @@
 }
 
 /* mobile approach min-width */
-@media (width >= 45.875em) {
+@media (width >= 47em) {
   .social-media {
     justify-content: flex-start;
   }

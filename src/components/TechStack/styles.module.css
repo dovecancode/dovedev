@@ -8,7 +8,7 @@
   gap: 1rem; */
 }
 
-@media (width >= 45.875em) {
+@media (width >= 47em) {
   .techStack {
     display: flex;
     margin-top: 1rem;
