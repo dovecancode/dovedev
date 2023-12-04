@@ -13,7 +13,7 @@
 }
 
 .techStack svg {
-  margin-right: 0;
+  margin-right: 1rem;
 }
 
 @media (width >= 47em) {
@@ -28,9 +28,9 @@
   }
 }
 
-@media (width >= 60em) {
+@media (width >= 50em) {
   .techStack svg {
-    margin-right: 3.5rem;
+    margin-right: 2.5rem;
   }
 }
 
