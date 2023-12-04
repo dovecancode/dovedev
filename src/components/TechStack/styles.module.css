@@ -11,7 +11,7 @@
 @media (width >= 47em) {
   .techStack {
     display: flex;
-    margin-top: 1rem;
+    margin-block: 1.2rem;
     gap: 1rem;
   }
 
