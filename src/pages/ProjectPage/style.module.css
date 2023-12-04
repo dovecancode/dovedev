@@ -5,7 +5,7 @@
 }
 
 /* mobile approach min-width */
-@media (width >= 45.875em) {
+@media (width >= 47em) {
   .portfolios.container {
     top: 0;
   }
