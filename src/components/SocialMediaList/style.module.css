@@ -1,21 +1,21 @@
-.social-media {
+.p-link {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 2rem;
 }
 
-.social-media li .socialIcon {
+.p-link li :global(.socialIcon) {
   transition: all 0.2s ease-in;
 }
 
-.social-media li a:hover .socialIcon {
+.p-link li a:hover :global(.socialIcon) {
   color: rgba(100, 63, 161, 0.94) !important;
 }
 
 /* mobile approach min-width */
 @media (width >= 47em) {
-  .social-media {
+  .p-link {
     justify-content: flex-start;
   }
 }
