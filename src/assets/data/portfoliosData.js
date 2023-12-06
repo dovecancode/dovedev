@@ -6,7 +6,7 @@ const portfolioData = [
     id: 1,
     title: 'reelestate',
     description:
-      'This project was the first Mini Project I had during the Bootcamp I joined recently. Its was about realestate listing website kind of thing where sellers can list properties and stuff. It was designed in Figma(wireframe). This project was primarily for me to practice my skills in Vanilla CSS and ensure that I am capapble of making a website without the use of any CSS Frameworks/Libraries',
+      "This project was the first Mini Project I had during the Bootcamp I joined recently. It's was about realestate listing website kind of thing where sellers can list properties and stuff. It was designed in Figma(wireframe). This project was primarily for me to practice my skills in Vanilla CSS and ensure that I am capapble of making a website without the use of any CSS Frameworks/Libraries",
     icons: [
       {
         sourse: {
@@ -21,7 +21,7 @@ const portfolioData = [
     id: 2,
     title: 'gadgetworld',
     description:
-      'This website is part of my second Mini Project during the Bootcamp its an eCommerce website type of thing. My group decided to use Bootstrap Framework to make the developement easy and more UI friendly. Since I was in a group I go through a lot of basic commands of git and GitHub. It was also the perect time to explore Vanilla Javascript',
+      "This website is part of my second Mini Project during the Bootcamp it's an eCommerce website type of thing. My group decided to use Bootstrap Framework to make the developement easy and more UI friendly. Since I was in a group I go through a lot of basic commands of git and GitHub. It was also the perect time to explore Vanilla Javascript",
     icons: [
       {
         sourse: {
@@ -50,7 +50,7 @@ const portfolioData = [
     id: 4,
     title: 'todo list app',
     description:
-      'This to-do list app probably is my favorite one so far. Doing this  I got deep dive more into Vanilla Javascript, local storages, and a little bit of CSS animation triggerd by javascript events',
+      'This to-do list app probably is my favorite one so far. Doing this I got deep dive more into Vanilla Javascript, local storages, and a little bit of CSS animation triggerd by javascript events',
     icons: [
       {
         sourse: {
