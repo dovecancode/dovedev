@@ -6,7 +6,7 @@ const portfolioData = [
     id: 1,
     title: 'reelestate',
     description:
-      "This project was the first Mini Project I had during the Bootcamp I joined recently. It's was about realestate listing website kind of thing where sellers can list properties and stuff. It was designed in Figma(wireframe). This project was primarily for me to practice my skills in Vanilla CSS and ensure that I am capapble of making a website without the use of any CSS Frameworks/Libraries",
+      "This project was the first Mini Project I had during the Bootcamp I joined recently. It's was about realestate listing website kind of thing where sellers can list properties and stuff. It was designed in Figma(wireframe). This project was primarily for me to practice my skills in HTML/CSS and ensure that I am capapble of making a website without the use of any CSS Frameworks/Libraries",
     icons: [
       {
         sourse: {
@@ -78,6 +78,24 @@ const portfolioData = [
         achor: {
           icon: FiExternalLink,
           link: 'https://dove-budgetcalc.vercel.app/',
+        },
+      },
+    ],
+  },
+  {
+    id: 6,
+    title: 'ecom-store',
+    description:
+      "This project is about a simple Ecommerce Store. I made this to be able show case my skills and my understanding about the React JS technology. On this project I've used FakeStore API to fetch products and products details. Throughout the project, I encountered challenges that propelled my growth, every obstacle became a learning opportunity. I develop deeper understanding about the context API, custom hook, and the beauty of creating components for every piece of the UI",
+    icons: [
+      {
+        sourse: {
+          icon: FaGithub,
+          link: 'https://github.com/dovecancode/ecom-store',
+        },
+        achor: {
+          icon: FiExternalLink,
+          link: 'https://dove-ecom-store.vercel.app/',
         },
       },
     ],
